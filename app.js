@@ -22,3 +22,15 @@ class Car extends Vehicle {
     return 4;
   }
 }
+
+class Motorcycle extends Vehicle {
+  constructor(a, b, c) {
+    super(a, b, c);
+  }
+  numWheels() {
+    return 2;
+  }
+  revEngine() {
+    console.log('VROOM!!!');
+  }
+}
