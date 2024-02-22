@@ -13,3 +13,12 @@ class Vehicle {
     );
   }
 }
+
+class Car extends Vehicle {
+  constructor(a, b, c) {
+    super(a, b, c);
+  }
+  numWheels() {
+    return 4;
+  }
+}
